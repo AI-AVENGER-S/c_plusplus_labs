@@ -22,10 +22,6 @@ Testing/
 *.obj
 *.lo
 
-# Executables
-lab_1
-tests
-
 # Precompiled headers
 *.gch
 *.pch

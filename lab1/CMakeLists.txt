@@ -6,8 +6,8 @@ find_package(GTest REQUIRED)
 find_package(Threads REQUIRED)
 
 # Основная программа
-add_executable(lab_1 main.cpp src/closest_to_bound.cpp)
-target_include_directories(lab_1 PUBLIC include)
+add_executable(lab1 main.cpp src/closest_to_bound.cpp)
+target_include_directories(lab1 PUBLIC include)
 
 # Тесты
 add_executable(tests tests/tests01.cpp src/closest_to_bound.cpp)
